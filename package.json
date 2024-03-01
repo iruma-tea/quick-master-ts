@@ -1,0 +1,22 @@
+{
+  "name": "quick-master-ts",
+  "version": "1.0.0",
+  "description": "速習TypeScriptの学習用リポジトリ   ![画像](https://wings.msn.to/books/WGS-JSF-005/WGS-JSF-005.jpg \"速習TypeScript\")",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc --wathc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iruma-tea/quick-master-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
