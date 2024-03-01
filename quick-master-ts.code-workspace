@@ -59,6 +59,9 @@
 			"fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 			"sml": "cd $dir && sml $fileName",
 			"mojo": "mojo run"
-		}
+		},
+		// task.jsonからlaunch.jsonを参照できないの事象を解決させるおまじない。
+		"terminal.integrated.automationProfile.windows": "C:\\Windows\\System32\\cmd.exe",
+
 	}
 }

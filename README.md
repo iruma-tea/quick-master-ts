@@ -26,6 +26,7 @@
 |設定名|設定値|
 |:---|:---|
 |sourceMap|true|
+|rootDir|./src|
 |outDir|./dist|
 
 - package.jsonの更新
