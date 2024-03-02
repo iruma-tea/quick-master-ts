@@ -80,6 +80,12 @@
 - rtype: 戻り値のデータ型
 - statements: 関数の本体
 
+## 共用型(Union Types)
+「複数の型の中のどれか」を表す型。型をパイプ(|)で区切ることで表現する。  
+
+## 型ガード関数
+戻り値として「引数 is 型名」とするだけ。
+
 
 ## 参考URL
 - https://qiita.com/shitikakei/items/9714968bd4a5a53cba3c
