@@ -65,6 +65,22 @@
 - rtype: 戻り値のデータ型
 - statements: 関数の本体
 
+## 関数型の宣言
+[構文]関数型の宣言   
+`(param: ptype, ・・・) => rtype`   
+- param: 仮引数
+- ptype: 仮引数のデータ型
+- rtype: 戻り値のデータ型
+
+## アロー関数(ラムダ式)による宣言
+[構文]アロー関数  
+`(param: ptype,・・・): rtype => {・・・ statements ・・・}`  
+- param: 仮引数
+- ptype: 仮引数のデータ型
+- rtype: 戻り値のデータ型
+- statements: 関数の本体
+
+
 ## 参考URL
 - https://qiita.com/shitikakei/items/9714968bd4a5a53cba3c
 - https://go-tech.blog/nodejs/typescript-env/
