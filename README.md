@@ -56,6 +56,14 @@
 - ename: 列挙型の名前
 - name: 定数
 
+## function命令による宣言
+[構文] function命令  
+`function name(param:ptype, ・・・・): rtype {・・・ statements・・・・}`  
+- name: 関数名
+- param: 仮引数
+- ptype: 仮引数のデータ型
+- rtype: 戻り値のデータ型
+- statements: 関数の本体
 
 ## 参考URL
 - https://qiita.com/shitikakei/items/9714968bd4a5a53cba3c
