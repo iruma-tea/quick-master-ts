@@ -41,6 +41,21 @@
 `    "url": "https://github.com/iruma-tea/quick-master-ts.git"`  
 `  }`  
 
+# TypeScriptの文法
+## 連想配列の宣言
+[構文]連想配列の宣言  
+`let name: {[index: i_type]: v_type} = initial`   
+- name: 配列名
+- i_type: インデックスのデータ型
+- v_type: 値のデータ型
+- initial: 初期値(オブジェクトリテラル)
+
+## 列挙型
+[構文]列挙型  
+`enum ename {name, ・・・}`  
+- ename: 列挙型の名前
+- name: 定数
+
 
 ## 参考URL
 - https://qiita.com/shitikakei/items/9714968bd4a5a53cba3c
